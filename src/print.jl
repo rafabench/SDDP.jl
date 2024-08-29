@@ -6,7 +6,7 @@
 const _RULE = "-------------------------------------------------------------------"
 
 function print_helper(f, io, args...)
-    f(stdout, args...)
+    # f(stdout, args...)
     return f(io, args...)
 end
 
